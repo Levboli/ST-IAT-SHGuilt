@@ -18,7 +18,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				borderColor: 'lightblue'
 			},
 			//Define the category.
-			category :  
+			category :
 			{
 				name : 'Black People', //Category name to be used for feedback and logging.
 				title : {
@@ -445,11 +445,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				inherit : 'Default',
 				css:piCurrent.category.css,
 				media : {inherit:{type:'exRandom',set:'category'}}
-			}],			
+			}],
 			// this stimulus used for giving feedback, in this case only the error notification
 			error : [{
 				data:{handle:'error'}, location: {top: 70}, css:{color:'red','font-size':'4em'}, media: {word:'X'}, nolog:true
-			}], 			
+			}],
 			dummyForLog : [{
 				data:{name:'dummyForLog', alias:'dummyForLog'},
 				location:{left:99}, media:{word:' '}
@@ -665,7 +665,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					data : {handle:'dummy', alias:'dummy'},
 					media : {word:' '},
 					location : {top:1}
-				}			
+				}
 			]
 		});
 		//Now add the trials sequence to the API.
