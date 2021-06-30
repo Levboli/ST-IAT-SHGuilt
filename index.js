@@ -10,7 +10,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      height : 7 //Used to position the "Or" in the combined block.
 		    },
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Green Group Supervisor'}
+    		    	{word : 'Green Group Supervisor'},
+							{word: 'Jeremy'}
 		    ],
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -29,7 +30,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'Perpetrator'},
 				{word: 'Committed Offense'},
 				{word: 'Unethical'},
-				{word: 'Did It'}
+				{word: 'Did It'},
+				{word: 'Guilty'}
 			],
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -47,7 +49,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'Blameless'},
 				{word: 'False Allegation'},
 				{word: 'Faultless'},
-				{word: 'Exonerated'}
+				{word: 'Exonerated'},
+				{word: 'Innocent'}
 			],
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
